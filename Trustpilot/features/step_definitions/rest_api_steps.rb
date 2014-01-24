@@ -1,7 +1,7 @@
 require 'httparty'
 
 When(/^I post to "(.*?)" with:$/) do |path, json|
-	@last_response = Api.post(path, :body => json, :headers => {'Content-Type' => 'text/plain'})
+	@last_response = Segment_api.post(path, :body => json, :headers => {'Content-Type' => 'text/plain'})
 end
 
 Then(/^the response should be JSON:$/) do |json|

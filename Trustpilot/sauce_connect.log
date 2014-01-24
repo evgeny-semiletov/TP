@@ -1,0 +1,550 @@
+2014-01-24 10:34:08,986 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:34:08,990 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:34:08,994 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:34:08,996 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51055'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:34:08,999 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51055'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:34:09,000 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51055']
+2014-01-24 10:34:09,065 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51055 in 59ms
+2014-01-24 10:34:09,904 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51055"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:34:13,959 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (4ecb3ffcd2d547e8aabf349138873302)
+2014-01-24 10:34:14,259 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:34:30,743 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki77011.miso.saucelabs.com
+2014-01-24 10:34:30,759 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51055 in 0ms
+2014-01-24 10:34:30,763 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:34:30,766 - sauce_connect:642 - INFO - Connecting to tunnel host maki77011.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:34:30,914 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51059
+2014-01-24 10:34:30,921 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:34:31,967 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:34:32,148 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: e790dad04e2544d3b28ee0e04a446481
+2014-01-24 10:34:32,151 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:34:33,367 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 10:35:23,509 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:35:23,513 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:35:23,519 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:35:23,519 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51067'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:35:23,522 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51067'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:35:23,523 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51067']
+2014-01-24 10:35:23,532 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51067 in 4ms
+2014-01-24 10:35:24,335 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51067"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:35:28,280 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (eda6d8d11d124309b31135eb2399cbfe)
+2014-01-24 10:35:28,569 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:36:05,122 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki77049.miso.saucelabs.com
+2014-01-24 10:36:05,138 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51067 in 0ms
+2014-01-24 10:36:05,141 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:36:05,141 - sauce_connect:642 - INFO - Connecting to tunnel host maki77049.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:36:05,246 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51108
+2014-01-24 10:36:05,252 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:36:06,283 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:36:06,467 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f0b13965acd84c77a7f441237a0a6d14
+2014-01-24 10:36:06,470 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:36:19,388 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (201ms)
+2014-01-24 10:36:19,753 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (120ms)
+2014-01-24 10:36:19,849 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (184ms)
+2014-01-24 10:36:19,872 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (208ms)
+2014-01-24 10:36:19,877 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (211ms)
+2014-01-24 10:36:19,904 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (96ms)
+2014-01-24 10:36:19,924 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (72ms)
+2014-01-24 10:36:19,933 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (122ms)
+2014-01-24 10:36:19,950 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (93ms)
+2014-01-24 10:36:20,319 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (686ms)
+2014-01-24 10:36:20,322 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (687ms)
+2014-01-24 10:36:20,348 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (714ms)
+2014-01-24 10:36:21,009 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (822ms)
+2014-01-24 10:36:21,792 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (67ms)
+2014-01-24 10:36:21,832 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.eot? -> 200 (60ms)
+2014-01-24 10:36:21,900 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (178ms)
+2014-01-24 10:36:22,043 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (167ms)
+2014-01-24 10:36:22,154 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (191ms)
+2014-01-24 10:36:22,299 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (337ms)
+2014-01-24 10:36:23,062 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (742ms)
+2014-01-24 10:36:23,221 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (1448ms)
+2014-01-24 10:36:23,221 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (901ms)
+2014-01-24 10:36:23,252 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (1479ms)
+2014-01-24 10:36:23,278 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (1400ms)
+2014-01-24 10:36:24,279 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (2315ms)
+2014-01-24 10:36:24,289 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (1076ms)
+2014-01-24 10:36:24,496 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (2175ms)
+2014-01-24 10:36:25,174 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=1709181487&utmhn=www.trustpilot.com&utmcs=utf-8&utmsr=1024x768&utmvp=1024x712&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.7%20r700&utmdt=Trustpilot&utmhid=679157405&utmr=-&utmp=%2F&utmht=1390556182282&utmac=UA-3710215-26&utmcc=__utma%3D1.171258672.1390556182.1390556182.1390556182.1%3B%2B__utmz%3D1.1390556182.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (466ms)
+2014-01-24 10:36:25,410 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (371ms)
+2014-01-24 10:36:25,869 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (851ms)
+2014-01-24 10:36:25,987 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e231e300006400016032f5/73x73.png -> 200 (391ms)
+2014-01-24 10:36:26,068 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23b070000640001603452/73x73.png -> 200 (637ms)
+2014-01-24 10:36:26,079 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/51ed246d000064000144c727/73x73.png -> 200 (664ms)
+2014-01-24 10:36:26,094 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52dfa94d00006400015fce22/73x73.png -> 200 (661ms)
+2014-01-24 10:36:26,104 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23deb00006400016034c7/73x73.png -> 200 (507ms)
+2014-01-24 10:36:26,171 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e236440000640001603389/73x73.png -> 200 (573ms)
+2014-01-24 10:36:26,398 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1358ms)
+2014-01-24 10:36:26,671 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df335eda0901b474%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff1e7540fe50a599%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (1548ms)
+2014-01-24 10:36:27,111 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=1425424566&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=utf-8&utmsr=1024x768&utmvp=1024x712&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.7%20r700&utmdt=Trustpilot&utmhid=679157405&utmr=-&utmp=%2F&utmht=1390556182290&utmac=UA-3710215-26&utmcc=__utma%3D1.171258672.1390556182.1390556182.1390556182.1%3B%2B__utmz%3D1.1390556182.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (2093ms)
+2014-01-24 10:36:27,115 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0M2MzOWI3YTRlMi0wYjdjNzczYzQ0M2VjMy04MWIyMTFiLWMwMDAwLTE0M2MzOWI3YTRmMzAiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwibXBfcGFnZSI6ICJodHRwOi8vd3d3LnRydXN0cGlsb3QuY29tLyIsIm1wX2Jyb3dzZXIiOiAiSW50ZXJuZXQgRXhwbG9yZXIiLCJtcF9wbGF0Zm9ybSI6ICJXaW5kb3dzIiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390556183126 -> 200 (1502ms)
+2014-01-24 10:36:27,122 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0M2MzOWI3YTRlMi0wYjdjNzczYzQ0M2VjMy04MWIyMTFiLWMwMDAwLTE0M2MzOWI3YTRmMzAiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390556183128 -> 200 (1182ms)
+2014-01-24 10:36:27,141 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsImlkIjogImVjYmMwYWMyYzFlMDcwOGY0YTIzZTU5NmYxNDI2MzhmZDU2MTgwYWEifSwiJHRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIiwiJGRpc3RpbmN0X2lkIjogImVjYmMwYWMyYzFlMDcwOGY0YTIzZTU5NmYxNDI2MzhmZDU2MTgwYWEifQ%3D%3D&ip=1&_=1390556183138 -> 200 (925ms)
+2014-01-24 10:36:27,184 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23d0600006400016034a9/73x73.png -> 200 (263ms)
+2014-01-24 10:36:27,282 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23b0b0000640001603455/73x73.png -> 200 (362ms)
+2014-01-24 10:36:27,813 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (85ms)
+2014-01-24 10:36:28,081 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=1&dLS=1&dLE=1&cS=1&cE=1&hS=-1&reS=10&resS=442&resE=639&dL=442&dI=493&dCLES=2570&dCLEE=2730&dC=8560&lES=8569&lEE=8574 -> 200 (241ms)
+2014-01-24 10:36:28,411 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (490ms)
+2014-01-24 10:36:28,424 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (502ms)
+2014-01-24 10:36:28,424 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (504ms)
+2014-01-24 10:36:32,177 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e231ff00006400016032fa/73x73.png -> 200 (133ms)
+2014-01-24 10:37:24,496 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 10:41:40,826 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:41:40,829 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:41:40,835 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:41:40,836 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51256'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:41:40,838 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51256'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:41:40,838 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51256']
+2014-01-24 10:41:40,849 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51256 in 3ms
+2014-01-24 10:41:41,654 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51256"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:41:45,548 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (abdd7e057c4a47928f8ddf8935e3d208)
+2014-01-24 10:41:45,865 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:42:12,470 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76237.miso.saucelabs.com
+2014-01-24 10:42:12,484 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51256 in 0ms
+2014-01-24 10:42:12,487 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:42:12,490 - sauce_connect:642 - INFO - Connecting to tunnel host maki76237.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:42:12,592 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51260
+2014-01-24 10:42:12,598 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:42:13,999 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:42:14,187 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 742c5d71c6fd48ecb3831b6100acc45d
+2014-01-24 10:42:14,191 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:42:26,809 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (506ms)
+2014-01-24 10:42:28,069 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (121ms)
+2014-01-24 10:42:28,085 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (123ms)
+2014-01-24 10:42:28,230 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (83ms)
+2014-01-24 10:42:28,266 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (315ms)
+2014-01-24 10:42:28,266 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (312ms)
+2014-01-24 10:42:28,285 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (323ms)
+2014-01-24 10:42:28,290 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (145ms)
+2014-01-24 10:42:28,638 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (683ms)
+2014-01-24 10:42:28,641 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (501ms)
+2014-01-24 10:42:28,650 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (685ms)
+2014-01-24 10:42:28,654 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (515ms)
+2014-01-24 10:42:29,509 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (828ms)
+2014-01-24 10:42:30,167 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (69ms)
+2014-01-24 10:42:30,256 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (67ms)
+2014-01-24 10:42:30,257 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.eot? -> 200 (71ms)
+2014-01-24 10:42:30,292 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (195ms)
+2014-01-24 10:42:30,447 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (244ms)
+2014-01-24 10:42:30,802 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (508ms)
+2014-01-24 10:42:31,690 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (1596ms)
+2014-01-24 10:42:31,766 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (1670ms)
+2014-01-24 10:42:32,046 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (1856ms)
+2014-01-24 10:42:32,542 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (2336ms)
+2014-01-24 10:42:32,730 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (338ms)
+2014-01-24 10:42:32,927 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (535ms)
+2014-01-24 10:42:32,931 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (535ms)
+2014-01-24 10:42:33,217 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (688ms)
+2014-01-24 10:42:33,303 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (272ms)
+2014-01-24 10:42:33,739 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (656ms)
+2014-01-24 10:42:33,789 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (754ms)
+2014-01-24 10:42:33,792 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df158adfd2d19d82%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff2318c66a390e6a%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (692ms)
+2014-01-24 10:42:33,832 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/5165727e00006400013764a7/73x73.png -> 200 (470ms)
+2014-01-24 10:42:33,865 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23efc00006400016034f9/73x73.png -> 200 (765ms)
+2014-01-24 10:42:33,871 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52570a7d00006400014fe369/73x73.png -> 200 (565ms)
+2014-01-24 10:42:33,911 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2403a0000640001603532/73x73.png -> 200 (790ms)
+2014-01-24 10:42:33,974 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/512f5a1b0000640001326cbc/73x73.png -> 200 (856ms)
+2014-01-24 10:42:34,082 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (963ms)
+2014-01-24 10:42:34,822 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e8a5c0000640001383fbe/73x73.png -> 200 (592ms)
+2014-01-24 10:42:34,865 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (634ms)
+2014-01-24 10:42:35,035 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=288025774&utmhn=www.trustpilot.com&utmcs=utf-8&utmsr=1024x768&utmvp=1024x712&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.7%20r700&utmdt=Trustpilot&utmhid=1958370066&utmr=-&utmp=%2F&utmht=1390556550874&utmac=UA-3710215-26&utmcc=__utma%3D1.382832897.1390556551.1390556551.1390556551.1%3B%2B__utmz%3D1.1390556551.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (294ms)
+2014-01-24 10:42:35,365 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=658825283&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=utf-8&utmsr=1024x768&utmvp=1024x712&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.7%20r700&utmdt=Trustpilot&utmhid=1958370066&utmr=-&utmp=%2F&utmht=1390556550882&utmac=UA-3710215-26&utmcc=__utma%3D1.382832897.1390556551.1390556551.1390556551.1%3B%2B__utmz%3D1.1390556551.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (623ms)
+2014-01-24 10:42:35,392 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0M2MzYTExNjdjMzYtMDE4ZDg5NmQ5N2Q2Yzg4LTgxYjIxMWItYzAwMDAtMTQzYzNhMTE2N2QzNiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJ0b2tlbiI6ICIyYzIyZDI0ODJlZjgwOTQ1MmJjOTVhZjVjMmFkODU2MCJ9fQ%3D%3D&ip=1&_=1390556550792 -> 200 (1670ms)
+2014-01-24 10:42:35,398 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsImlkIjogIjRhMDY1ODdhMDdkZTg4YzgwNjRhMTVkNTFlMzMyYTk4NmIwYjk4NDYifSwiJHRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIiwiJGRpc3RpbmN0X2lkIjogIjRhMDY1ODdhMDdkZTg4YzgwNjRhMTVkNTFlMzMyYTk4NmIwYjk4NDYifQ%3D%3D&ip=1&_=1390556550800 -> 200 (1480ms)
+2014-01-24 10:42:35,408 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiV2luZG93cyIsIiRicm93c2VyIjogIkludGVybmV0IEV4cGxvcmVyIiwibXBfbGliIjogIndlYiIsImRpc3RpbmN0X2lkIjogIjE0M2MzYTExNjdjMzYtMDE4ZDg5NmQ5N2Q2Yzg4LTgxYjIxMWItYzAwMDAtMTQzYzNhMTE2N2QzNiIsIiRpbml0aWFsX3JlZmVycmVyIjogIiRkaXJlY3QiLCIkaW5pdGlhbF9yZWZlcnJpbmdfZG9tYWluIjogIiRkaXJlY3QiLCJtcF9wYWdlIjogImh0dHA6Ly93d3cudHJ1c3RwaWxvdC5jb20vIiwibXBfYnJvd3NlciI6ICJJbnRlcm5ldCBFeHBsb3JlciIsIm1wX3BsYXRmb3JtIjogIldpbmRvd3MiLCJ0b2tlbiI6ICIyYzIyZDI0ODJlZjgwOTQ1MmJjOTVhZjVjMmFkODU2MCJ9fQ%3D%3D&ip=1&_=1390556550789 -> 200 (1687ms)
+2014-01-24 10:42:35,611 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (52ms)
+2014-01-24 10:42:36,200 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=1&dLS=1&dLE=1&cS=1&cE=1&hS=-1&reS=13&resS=813&resE=1494&dL=813&dI=868&dCLES=3810&dCLEE=3996&dC=9321&lES=9332&lEE=9338 -> 200 (534ms)
+2014-01-24 10:42:36,480 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (813ms)
+2014-01-24 10:42:36,489 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (735ms)
+2014-01-24 10:42:36,494 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (742ms)
+2014-01-24 10:42:40,303 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23deb00006400016034c7/73x73.png -> 200 (132ms)
+2014-01-24 10:43:34,661 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 10:48:20,482 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:48:20,486 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:48:20,493 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:48:20,493 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51418'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:48:20,496 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51418'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:48:20,496 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51418']
+2014-01-24 10:48:20,507 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51418 in 5ms
+2014-01-24 10:48:21,536 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51418"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:48:25,220 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (8e4102bd3cbc497ea1558cef59f91f83)
+2014-01-24 10:48:25,513 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:48:55,177 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76237.miso.saucelabs.com
+2014-01-24 10:48:55,196 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51418 in 0ms
+2014-01-24 10:48:55,198 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:48:55,200 - sauce_connect:642 - INFO - Connecting to tunnel host maki76237.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:48:55,295 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51422
+2014-01-24 10:48:55,302 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:48:56,141 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:48:56,325 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: db7fa0d022544855be449f6a39731bcb
+2014-01-24 10:48:56,332 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:49:04,061 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (522ms)
+2014-01-24 10:49:04,417 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (123ms)
+2014-01-24 10:49:04,591 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (95ms)
+2014-01-24 10:49:04,733 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (236ms)
+2014-01-24 10:49:04,750 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (254ms)
+2014-01-24 10:49:04,753 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (256ms)
+2014-01-24 10:49:04,903 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (172ms)
+2014-01-24 10:49:04,904 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (176ms)
+2014-01-24 10:49:05,269 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (110ms)
+2014-01-24 10:49:07,180 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (72ms)
+2014-01-24 10:49:07,371 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.woff -> 200 (63ms)
+2014-01-24 10:49:07,526 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (467ms)
+2014-01-24 10:49:07,532 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (224ms)
+2014-01-24 10:49:07,539 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (479ms)
+2014-01-24 10:49:07,542 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (485ms)
+2014-01-24 10:49:07,558 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (500ms)
+2014-01-24 10:49:07,559 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (465ms)
+2014-01-24 10:49:07,630 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (570ms)
+2014-01-24 10:49:07,795 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (696ms)
+2014-01-24 10:49:07,871 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (774ms)
+2014-01-24 10:49:07,986 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (237ms)
+2014-01-24 10:49:08,516 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (534ms)
+2014-01-24 10:49:08,584 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (264ms)
+2014-01-24 10:49:08,645 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (109ms)
+2014-01-24 10:49:08,973 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (992ms)
+2014-01-24 10:49:09,190 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (652ms)
+2014-01-24 10:49:09,193 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (655ms)
+2014-01-24 10:49:10,507 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (889ms)
+2014-01-24 10:49:10,596 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (180ms)
+2014-01-24 10:49:10,926 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1307ms)
+2014-01-24 10:49:11,023 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=2131933542&utmhn=www.trustpilot.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1289247559&utmr=-&utmp=%2F&utmht=1390556950723&utmac=UA-3710215-26&utmcc=__utma%3D1.11048352.1390556950.1390556950.1390556950.1%3B%2B__utmz%3D1.1390556950.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (171ms)
+2014-01-24 10:49:11,144 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=1848577724&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1289247559&utmr=-&utmp=%2F&utmht=1390556950737&utmac=UA-3710215-26&utmcc=__utma%3D1.11048352.1390556950.1390556950.1390556950.1%3B%2B__utmz%3D1.1390556950.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (215ms)
+2014-01-24 10:49:11,433 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23efc00006400016034f9/73x73.png -> 200 (503ms)
+2014-01-24 10:49:11,450 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/5165727e00006400013764a7/73x73.png -> 200 (382ms)
+2014-01-24 10:49:11,466 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2403a0000640001603532/73x73.png -> 200 (528ms)
+2014-01-24 10:49:11,480 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/512f5a1b0000640001326cbc/73x73.png -> 200 (541ms)
+2014-01-24 10:49:11,552 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52570a7d00006400014fe369/73x73.png -> 200 (483ms)
+2014-01-24 10:49:11,555 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (617ms)
+2014-01-24 10:49:12,082 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhNzMxN2ExMTItMGQ3NDg2Zjk4LTNhNjAxYTE5LWMwMDAwLTE0M2MzYTczMTdiMWFhIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIm1wX3BhZ2UiOiAiaHR0cDovL3d3dy50cnVzdHBpbG90LmNvbS8iLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIkxpbnV4IiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390556950915 -> 200 (1011ms)
+2014-01-24 10:49:12,092 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhNzMxN2ExMTItMGQ3NDg2Zjk4LTNhNjAxYTE5LWMwMDAwLTE0M2MzYTczMTdiMWFhIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIn19&ip=1&_=1390556950920 -> 200 (1021ms)
+2014-01-24 10:49:12,099 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiaWQiOiAiODBkOWU5OWRhNjUxOTFkYTIwNDM4NGU5ZTVmNDhjYTM4ZWNlM2FlMiJ9LCIkdG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAiLCIkZGlzdGluY3RfaWQiOiAiODBkOWU5OWRhNjUxOTFkYTIwNDM4NGU5ZTVmNDhjYTM4ZWNlM2FlMiJ9&ip=1&_=1390556950932 -> 200 (1027ms)
+2014-01-24 10:49:12,119 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e8a5c0000640001383fbe/73x73.png -> 200 (294ms)
+2014-01-24 10:49:12,605 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (420ms)
+2014-01-24 10:49:13,555 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df4c0bf63%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff3111b9f24%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (532ms)
+2014-01-24 10:49:13,687 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=0&dLS=0&dLE=0&cS=0&cE=0&hS=-1&reS=47&resS=909&resE=1137&dL=917&dI=3768&dCLES=3768&dCLEE=3900&dC=9634&lES=9635&lEE=9655 -> 200 (575ms)
+2014-01-24 10:49:13,926 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (810ms)
+2014-01-24 10:49:13,934 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (817ms)
+2014-01-24 10:49:13,940 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (728ms)
+2014-01-24 10:49:14,292 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (92ms)
+2014-01-24 10:49:17,269 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (55ms)
+2014-01-24 10:49:17,411 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23deb00006400016034c7/73x73.png -> 200 (88ms)
+2014-01-24 10:49:24,132 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 10:51:27,266 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:51:27,269 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:51:27,273 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:51:27,276 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51546'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:51:27,276 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51546'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:51:27,278 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51546']
+2014-01-24 10:51:27,289 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51546 in 6ms
+2014-01-24 10:51:28,101 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51546"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:51:31,999 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (23185cd8b2a048f8ab0e2807cba1a1ff)
+2014-01-24 10:51:32,299 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:52:01,953 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki77192.miso.saucelabs.com
+2014-01-24 10:52:01,969 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51546 in 0ms
+2014-01-24 10:52:01,971 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:52:01,973 - sauce_connect:642 - INFO - Connecting to tunnel host maki77192.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:52:02,071 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51550
+2014-01-24 10:52:02,075 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:52:02,946 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:52:03,122 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: f34053f2a2c7424ba678fb6fc1c91e6e
+2014-01-24 10:52:03,127 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:52:09,437 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (513ms)
+2014-01-24 10:52:09,783 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (120ms)
+2014-01-24 10:52:09,953 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (107ms)
+2014-01-24 10:52:10,203 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (123ms)
+2014-01-24 10:52:10,207 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (124ms)
+2014-01-24 10:52:10,230 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (564ms)
+2014-01-24 10:52:10,252 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (406ms)
+2014-01-24 10:52:10,252 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (407ms)
+2014-01-24 10:52:10,767 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (502ms)
+2014-01-24 10:52:11,661 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (71ms)
+2014-01-24 10:52:11,752 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (163ms)
+2014-01-24 10:52:12,076 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.woff -> 200 (310ms)
+2014-01-24 10:52:12,107 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (520ms)
+2014-01-24 10:52:12,114 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (570ms)
+2014-01-24 10:52:12,118 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (574ms)
+2014-01-24 10:52:12,122 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (356ms)
+2014-01-24 10:52:12,127 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (718ms)
+2014-01-24 10:52:12,135 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (593ms)
+2014-01-24 10:52:12,237 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (693ms)
+2014-01-24 10:52:12,707 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (989ms)
+2014-01-24 10:52:12,813 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (339ms)
+2014-01-24 10:52:13,719 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (884ms)
+2014-01-24 10:52:13,802 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (2083ms)
+2014-01-24 10:52:13,819 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (1864ms)
+2014-01-24 10:52:13,976 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (1136ms)
+2014-01-24 10:52:14,173 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (397ms)
+2014-01-24 10:52:14,523 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (748ms)
+2014-01-24 10:52:14,811 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (1971ms)
+2014-01-24 10:52:15,390 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (255ms)
+2014-01-24 10:52:15,427 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/5165727e00006400013764a7/73x73.png -> 200 (475ms)
+2014-01-24 10:52:15,447 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (536ms)
+2014-01-24 10:52:15,474 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23efc00006400016034f9/73x73.png -> 200 (569ms)
+2014-01-24 10:52:15,532 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2403a0000640001603532/73x73.png -> 200 (624ms)
+2014-01-24 10:52:15,572 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (437ms)
+2014-01-24 10:52:15,596 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/512f5a1b0000640001326cbc/73x73.png -> 200 (691ms)
+2014-01-24 10:52:15,612 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52570a7d00006400014fe369/73x73.png -> 200 (702ms)
+2014-01-24 10:52:16,214 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=1741683183&utmhn=www.trustpilot.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=682775165&utmr=-&utmp=%2F&utmht=1390557135732&utmac=UA-3710215-26&utmcc=__utma%3D1.485958483.1390557135.1390557135.1390557135.1%3B%2B__utmz%3D1.1390557135.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (359ms)
+2014-01-24 10:52:16,279 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhYTAwMWQxNWMtMDQ2MDZlMmY4LTNhNjAxYTE5LWMwMDAwLTE0M2MzYWEwMDFlMTQxIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIm1wX3BhZ2UiOiAiaHR0cDovL3d3dy50cnVzdHBpbG90LmNvbS8iLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIkxpbnV4IiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390557134917 -> 200 (830ms)
+2014-01-24 10:52:16,286 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhYTAwMWQxNWMtMDQ2MDZlMmY4LTNhNjAxYTE5LWMwMDAwLTE0M2MzYWEwMDFlMTQxIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIn19&ip=1&_=1390557134924 -> 200 (828ms)
+2014-01-24 10:52:16,292 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiaWQiOiAiNDllM2NmMTc1NmE1M2U5N2Q0MjVkMjJjZDE0ZTZhNDBlNzhjZWUwZSJ9LCIkdG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAiLCIkZGlzdGluY3RfaWQiOiAiNDllM2NmMTc1NmE1M2U5N2Q0MjVkMjJjZDE0ZTZhNDBlNzhjZWUwZSJ9&ip=1&_=1390557134934 -> 200 (833ms)
+2014-01-24 10:52:16,637 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=225972728&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=682775165&utmr=-&utmp=%2F&utmht=1390557135744&utmac=UA-3710215-26&utmcc=__utma%3D1.485958483.1390557135.1390557135.1390557135.1%3B%2B__utmz%3D1.1390557135.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (422ms)
+2014-01-24 10:52:16,674 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (465ms)
+2014-01-24 10:52:16,723 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e8a5c0000640001383fbe/73x73.png -> 200 (514ms)
+2014-01-24 10:52:17,573 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df394b58f6c%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff37d3981f8%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (259ms)
+2014-01-24 10:52:17,831 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=0&dLS=0&dLE=0&cS=0&cE=0&hS=-1&reS=38&resS=766&resE=976&dL=775&dI=2739&dCLES=2739&dCLEE=2866&dC=8329&lES=8329&lEE=8355 -> 200 (582ms)
+2014-01-24 10:52:18,128 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (95ms)
+2014-01-24 10:52:18,141 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (815ms)
+2014-01-24 10:52:18,148 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (647ms)
+2014-01-24 10:52:18,157 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (657ms)
+2014-01-24 10:52:21,749 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (48ms)
+2014-01-24 10:52:21,976 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23deb00006400016034c7/73x73.png -> 200 (163ms)
+2014-01-24 10:52:28,059 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 10:54:38,717 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 10:54:38,720 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 10:54:38,726 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 10:54:38,727 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51666'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 10:54:38,730 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51666'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 10:54:38,730 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51666']
+2014-01-24 10:54:38,742 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51666 in 5ms
+2014-01-24 10:54:43,696 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51666"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 10:54:48,302 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (5b46866bbb9543e6a78ee16c9388a6ab)
+2014-01-24 10:54:48,585 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 10:55:11,619 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76086.miso.saucelabs.com
+2014-01-24 10:55:11,632 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51666 in 0ms
+2014-01-24 10:55:11,637 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 10:55:11,638 - sauce_connect:642 - INFO - Connecting to tunnel host maki76086.miso.saucelabs.com as evgenysemiletov
+2014-01-24 10:55:11,736 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51685
+2014-01-24 10:55:11,742 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 10:55:12,763 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 10:55:12,943 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: dafc4825e5f440518840e1626b99790d
+2014-01-24 10:55:12,947 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 10:55:20,444 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (506ms)
+2014-01-24 10:55:20,788 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (118ms)
+2014-01-24 10:55:20,934 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (184ms)
+2014-01-24 10:55:21,039 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (88ms)
+2014-01-24 10:55:21,088 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (139ms)
+2014-01-24 10:55:21,381 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (631ms)
+2014-01-24 10:55:21,401 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (177ms)
+2014-01-24 10:55:21,428 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (683ms)
+2014-01-24 10:55:21,446 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (700ms)
+2014-01-24 10:55:22,667 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (72ms)
+2014-01-24 10:55:22,750 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (160ms)
+2014-01-24 10:55:22,835 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (244ms)
+2014-01-24 10:55:23,335 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.woff -> 200 (560ms)
+2014-01-24 10:55:23,640 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (895ms)
+2014-01-24 10:55:23,654 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (1067ms)
+2014-01-24 10:55:23,658 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (1254ms)
+2014-01-24 10:55:23,671 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (1123ms)
+2014-01-24 10:55:23,674 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (1126ms)
+2014-01-24 10:55:23,677 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (1140ms)
+2014-01-24 10:55:23,740 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (1192ms)
+2014-01-24 10:55:24,253 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (1509ms)
+2014-01-24 10:55:24,538 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (1073ms)
+2014-01-24 10:55:24,615 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (286ms)
+2014-01-24 10:55:24,671 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (194ms)
+2014-01-24 10:55:25,321 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (843ms)
+2014-01-24 10:55:25,415 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (500ms)
+2014-01-24 10:55:26,035 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (1557ms)
+2014-01-24 10:55:26,068 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (1549ms)
+2014-01-24 10:55:26,232 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1712ms)
+2014-01-24 10:55:26,403 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2403a0000640001603532/73x73.png -> 200 (1196ms)
+2014-01-24 10:55:26,479 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/5165727e00006400013764a7/73x73.png -> 200 (1004ms)
+2014-01-24 10:55:26,502 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23efc00006400016034f9/73x73.png -> 200 (1300ms)
+2014-01-24 10:55:26,575 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (1368ms)
+2014-01-24 10:55:26,582 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52570a7d00006400014fe369/73x73.png -> 200 (1374ms)
+2014-01-24 10:55:26,585 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/512f5a1b0000640001326cbc/73x73.png -> 200 (1383ms)
+2014-01-24 10:55:26,698 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1784ms)
+2014-01-24 10:55:26,809 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=2025944225&utmhn=www.trustpilot.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1575378507&utmr=-&utmp=%2F&utmht=1390557326292&utmac=UA-3710215-26&utmcc=__utma%3D1.987253201.1390557326.1390557326.1390557326.1%3B%2B__utmz%3D1.1390557326.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (382ms)
+2014-01-24 10:55:27,328 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e8a5c0000640001383fbe/73x73.png -> 200 (496ms)
+2014-01-24 10:55:27,473 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=2036538799&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=UTF-8&utmsr=1024x768&utmvp=1009x706&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1575378507&utmr=-&utmp=%2F&utmht=1390557326301&utmac=UA-3710215-26&utmcc=__utma%3D1.987253201.1390557326.1390557326.1390557326.1%3B%2B__utmz%3D1.1390557326.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (947ms)
+2014-01-24 10:55:27,822 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiaWQiOiAiZGVlZmMwN2YxOGZlYTNkYjQ3NWY5MDE0Y2EwZjIwZTYzMWNkZjM1MCJ9LCIkdG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAiLCIkZGlzdGluY3RfaWQiOiAiZGVlZmMwN2YxOGZlYTNkYjQ3NWY5MDE0Y2EwZjIwZTYzMWNkZjM1MCJ9&ip=1&_=1390557326424 -> 200 (1248ms)
+2014-01-24 10:55:27,835 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (400ms)
+2014-01-24 10:55:27,835 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhY2VjNDIxNmUtMDNmNWZiNDhlLTNhNjAxYTE5LWMwMDAwLTE0M2MzYWNlYzQzMjg1IiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIn19&ip=1&_=1390557326418 -> 200 (1303ms)
+2014-01-24 10:55:27,839 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTGludXgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhY2VjNDIxNmUtMDNmNWZiNDhlLTNhNjAxYTE5LWMwMDAwLTE0M2MzYWNlYzQzMjg1IiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIm1wX3BhZ2UiOiAiaHR0cDovL3d3dy50cnVzdHBpbG90LmNvbS8iLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIkxpbnV4IiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390557326412 -> 200 (1312ms)
+2014-01-24 10:55:28,493 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=0&dLS=0&dLE=0&cS=0&cE=0&hS=-1&reS=22&resS=746&resE=952&dL=754&dI=2703&dCLES=2703&dCLEE=2831&dC=8293&lES=8294&lEE=8312 -> 200 (180ms)
+2014-01-24 10:55:28,519 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df2855a3af8%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff528ae604%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (266ms)
+2014-01-24 10:55:29,180 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (49ms)
+2014-01-24 10:55:29,250 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (815ms)
+2014-01-24 10:55:29,255 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (818ms)
+2014-01-24 10:55:29,262 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (826ms)
+2014-01-24 10:55:32,759 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (54ms)
+2014-01-24 10:55:32,904 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23deb00006400016034c7/73x73.png -> 200 (73ms)
+2014-01-24 10:55:42,775 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (88ms)
+2014-01-24 10:55:43,000 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e23d0600006400016034a9/73x73.png -> 200 (131ms)
+2014-01-24 10:55:52,772 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (84ms)
+2014-01-24 10:55:53,003 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52dfa94d00006400015fce22/73x73.png -> 200 (131ms)
+2014-01-24 10:55:55,881 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 11:00:16,213 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 11:00:16,216 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 11:00:16,220 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 11:00:16,221 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51866'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 11:00:16,223 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51866'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 11:00:16,224 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51866']
+2014-01-24 11:00:16,236 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51866 in 4ms
+2014-01-24 11:00:17,061 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51866"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 11:00:21,095 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (9f2740efda6249ce8bf25983a3bf35c8)
+2014-01-24 11:00:21,384 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 11:00:54,325 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki77041.miso.saucelabs.com
+2014-01-24 11:00:54,339 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51866 in 0ms
+2014-01-24 11:00:54,342 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 11:00:54,345 - sauce_connect:642 - INFO - Connecting to tunnel host maki77041.miso.saucelabs.com as evgenysemiletov
+2014-01-24 11:00:54,444 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51870
+2014-01-24 11:00:54,453 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 11:00:55,322 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 11:00:55,506 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 5e0215d78cc6458aa2a91a05aeb4d3cf
+2014-01-24 11:00:55,509 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 11:01:14,632 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (139ms)
+2014-01-24 11:01:14,944 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (66ms)
+2014-01-24 11:01:15,055 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (177ms)
+2014-01-24 11:01:15,349 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (67ms)
+2014-01-24 11:01:15,418 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (139ms)
+2014-01-24 11:01:15,437 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (563ms)
+2014-01-24 11:01:15,486 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (612ms)
+2014-01-24 11:01:15,492 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (414ms)
+2014-01-24 11:01:16,453 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (590ms)
+2014-01-24 11:01:17,201 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (71ms)
+2014-01-24 11:01:17,575 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (446ms)
+2014-01-24 11:01:17,586 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (458ms)
+2014-01-24 11:01:17,591 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (462ms)
+2014-01-24 11:01:17,594 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (465ms)
+2014-01-24 11:01:17,655 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (709ms)
+2014-01-24 11:01:17,704 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (359ms)
+2014-01-24 11:01:17,736 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (192ms)
+2014-01-24 11:01:18,233 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (331ms)
+2014-01-24 11:01:18,247 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.woff -> 200 (344ms)
+2014-01-24 11:01:18,434 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (288ms)
+2014-01-24 11:01:18,618 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (714ms)
+2014-01-24 11:01:18,732 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.Rz70jOhN_T0.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNRVCvprcTaUUsmklEvs301tf64Mg/cb=gapi.loaded_0 -> 200 (381ms)
+2014-01-24 11:01:19,413 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (1870ms)
+2014-01-24 11:01:19,592 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (793ms)
+2014-01-24 11:01:20,065 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (1263ms)
+2014-01-24 11:01:20,443 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (1640ms)
+2014-01-24 11:01:20,486 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (2530ms)
+2014-01-24 11:01:20,947 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (633ms)
+2014-01-24 11:01:21,223 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2455b0000640001603623/73x73.png -> 200 (260ms)
+2014-01-24 11:01:21,242 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2430600006400016035b8/73x73.png -> 200 (279ms)
+2014-01-24 11:01:21,259 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e24582000064000160362b/73x73.png -> 200 (295ms)
+2014-01-24 11:01:21,615 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e932500006400013840f9/73x73.png -> 200 (452ms)
+2014-01-24 11:01:21,765 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1080ms)
+2014-01-24 11:01:21,790 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e245d40000640001603641/73x73.png -> 200 (441ms)
+2014-01-24 11:01:21,967 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/50a787d10000640001273daa/73x73.png -> 200 (235ms)
+2014-01-24 11:01:22,279 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=555536039&utmhn=www.trustpilot.com&utmcs=UTF-8&utmsr=1024x768&utmvp=1024x673&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.9%20r900&utmdt=Trustpilot&utmhid=1426665938&utmr=http%3A%2F%2Flocalhost%3A36097%2Fconnect.html%3Furl%3Dws%253A%252F%252Flocalhost%253A36097&utmp=%2F&utmht=1390557102895&utmac=UA-3710215-26&utmcc=__utma%3D1.1725131119.1390557103.1390557103.1390557103.1%3B%2B__utmz%3D1.1390557103.1.1.utmcsr%3Dlocalhost%3A36097%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2Fconnect.html%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (59ms)
+2014-01-24 11:01:22,293 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (1609ms)
+2014-01-24 11:01:22,457 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJTYWZhcmkiLCIkcmVmZXJyZXIiOiAiaHR0cDovL2xvY2FsaG9zdDozNjA5Ny9jb25uZWN0Lmh0bWw%2FdXJsPXdzJTNBJTJGJTJGbG9jYWxob3N0JTNBMzYwOTciLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJsb2NhbGhvc3Q6MzYwOTciLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhOTgxNWRmNy0wNWI4OTczOWItMTA3YTM4M2ItYzAwMDAtMTQzYzNhOTgxNWU0YjUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vbG9jYWxob3N0OjM2MDk3L2Nvbm5lY3QuaHRtbD91cmw9d3MlM0ElMkYlMkZsb2NhbGhvc3QlM0EzNjA5NyIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAibG9jYWxob3N0OjM2MDk3IiwibXBfcGFnZSI6ICJodHRwOi8vd3d3LnRydXN0cGlsb3QuY29tLyIsIm1wX3JlZmVycmVyIjogImh0dHA6Ly9sb2NhbGhvc3Q6MzYwOTcvY29ubmVjdC5odG1sP3VybD13cyUzQSUyRiUyRmxvY2FsaG9zdCUzQTM2MDk3IiwibXBfYnJvd3NlciI6ICJTYWZhcmkiLCJtcF9wbGF0Zm9ybSI6ICJNYWMgT1MgWCIsInRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIn19&ip=1&_=1390557102437 -> 200 (710ms)
+2014-01-24 11:01:22,467 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJTYWZhcmkiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vbG9jYWxob3N0OjM2MDk3L2Nvbm5lY3QuaHRtbD91cmw9d3MlM0ElMkYlMkZsb2NhbGhvc3QlM0EzNjA5NyIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAibG9jYWxob3N0OjM2MDk3IiwiaWQiOiAiZTliZmNlNjg1OWViYjU0NThkZmVmMzRlZTE4Mzc2NzYyZWEyNGEwMiJ9LCIkdG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAiLCIkZGlzdGluY3RfaWQiOiAiZTliZmNlNjg1OWViYjU0NThkZmVmMzRlZTE4Mzc2NzYyZWEyNGEwMiJ9&ip=1&_=1390557102452 -> 200 (444ms)
+2014-01-24 11:01:22,469 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=1594747233&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=UTF-8&utmsr=1024x768&utmvp=1024x673&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.9%20r900&utmdt=Trustpilot&utmhid=1426665938&utmr=http%3A%2F%2Flocalhost%3A36097%2Fconnect.html%3Furl%3Dws%253A%252F%252Flocalhost%253A36097&utmp=%2F&utmht=1390557102904&utmac=UA-3710215-26&utmcc=__utma%3D1.1725131119.1390557103.1390557103.1390557103.1%3B%2B__utmz%3D1.1390557103.1.1.utmcsr%3Dlocalhost%3A36097%7Cutmccn%3D(referral)%7Cutmcmd%3Dreferral%7Cutmcct%3D%2Fconnect.html%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (57ms)
+2014-01-24 11:01:22,476 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJTYWZhcmkiLCIkcmVmZXJyZXIiOiAiaHR0cDovL2xvY2FsaG9zdDozNjA5Ny9jb25uZWN0Lmh0bWw%2FdXJsPXdzJTNBJTJGJTJGbG9jYWxob3N0JTNBMzYwOTciLCIkcmVmZXJyaW5nX2RvbWFpbiI6ICJsb2NhbGhvc3Q6MzYwOTciLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNhOTgxNWRmNy0wNWI4OTczOWItMTA3YTM4M2ItYzAwMDAtMTQzYzNhOTgxNWU0YjUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICJodHRwOi8vbG9jYWxob3N0OjM2MDk3L2Nvbm5lY3QuaHRtbD91cmw9d3MlM0ElMkYlMkZsb2NhbGhvc3QlM0EzNjA5NyIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAibG9jYWxob3N0OjM2MDk3IiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390557102443 -> 200 (456ms)
+2014-01-24 11:01:22,917 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (50ms)
+2014-01-24 11:01:23,200 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df1b4a55d4%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff98e234bc%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (259ms)
+2014-01-24 11:01:23,759 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (813ms)
+2014-01-24 11:01:23,766 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (708ms)
+2014-01-24 11:01:23,779 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (835ms)
+2014-01-24 11:01:27,223 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (209ms)
+2014-01-24 11:01:27,255 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (49ms)
+2014-01-24 11:01:37,177 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (88ms)
+2014-01-24 11:01:37,237 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (147ms)
+2014-01-24 11:01:51,744 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 11:04:09,891 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 11:04:09,897 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 11:04:09,904 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 11:04:09,905 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['51992'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 11:04:09,907 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['51992'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 11:04:09,910 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['51992']
+2014-01-24 11:04:09,924 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51992 in 6ms
+2014-01-24 11:04:10,798 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["51992"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 11:04:14,783 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (613c03315d4346c5b25e6399e0a4be08)
+2014-01-24 11:04:15,084 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 11:04:31,592 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76046.miso.saucelabs.com
+2014-01-24 11:04:31,608 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:51992 in 0ms
+2014-01-24 11:04:31,611 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 11:04:31,614 - sauce_connect:642 - INFO - Connecting to tunnel host maki76046.miso.saucelabs.com as evgenysemiletov
+2014-01-24 11:04:31,723 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 51996
+2014-01-24 11:04:31,729 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 11:04:32,801 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 11:04:32,992 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 47e0d777427b473c947b4f4d4f80fd47
+2014-01-24 11:04:32,993 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 11:04:33,829 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 11:05:06,168 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 11:05:06,171 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 11:05:06,177 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 11:05:06,178 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['52005'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 11:05:06,180 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['52005'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 11:05:06,181 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['52005']
+2014-01-24 11:05:06,191 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:52005 in 5ms
+2014-01-24 11:05:06,984 - sauce_connect:234 - INFO - {"squid_config":null,"use_caching_proxy":true,"metadata":{"PythonVersion":"2.5.1","OwnerHost":"127.0.0.1","Release":"3.0-r25","OwnerPorts":["52005"],"Ports":["80"],"Platform":"Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64","Build":"38","ScriptRelease":38,"ScriptName":"sauce_connect"},"use_kgp":true,"tunnel_identifier":"","shared_tunnel":false,"fast_fail_regexps":null,"ssh_port":443,"direct_domains":null,"domain_names":["sauce-connect.proxy"]}
+2014-01-24 11:05:11,005 - sauce_connect:246 - INFO - Tunnel remote VM is provisioned (1a958cca84844b3bba5a5362a8dcf0be)
+2014-01-24 11:05:11,302 - sauce_connect:264 - INFO - Tunnel remote VM is booting ..
+2014-01-24 11:05:36,811 - sauce_connect:268 - INFO - Tunnel remote VM is running at maki76178.miso.saucelabs.com
+2014-01-24 11:05:36,825 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:52005 in 0ms
+2014-01-24 11:05:36,828 - sauce_connect:642 - INFO - Starting connection to tunnel host...
+2014-01-24 11:05:36,829 - sauce_connect:642 - INFO - Connecting to tunnel host maki76178.miso.saucelabs.com as evgenysemiletov
+2014-01-24 11:05:36,937 - sauce_connect:642 - INFO - Forwarding Selenium with ephemeral port 52009
+2014-01-24 11:05:36,944 - sauce_connect:642 - INFO - Selenium HTTP proxy listening on port 4445
+2014-01-24 11:05:37,924 - sauce_connect:0 - INFO - Successful handshake with Sauce Connect server
+2014-01-24 11:05:38,099 - sauce_connect:0 - INFO - Tunnel host version: 0.1.0, remote endpoint ID: 6d11ec3c56704febbf1e75f7e7e24a23
+2014-01-24 11:05:38,102 - sauce_connect:642 - INFO - Connected! You may start your tests.
+2014-01-24 11:05:49,079 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ -> 200 (508ms)
+2014-01-24 11:05:49,428 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FCSS%2Ftp-master.css%3B%2FStyles%2Fshared%2Fautocomplete.css%3B%2FStyles%2Fshared%2Fcookie-and-notification-bar.css&t=130349631155937084 -> 200 (118ms)
+2014-01-24 11:05:49,586 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/js/users/jquery.tracking.js -> 200 (197ms)
+2014-01-24 11:05:49,647 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fbase%2FTP.base.js%3B%2FJS%2Fshared%2Fjquery.shared.dependencies.js%3B%2FJS%2Fshared%2Fjquery.shared.js%3B%2FJS%2Fshared%2Fjquery.autocomplete.js%3B%2FJS%2Fshared%2FTP.initSocialWidgets.js%3B%2FJS%2Fshared%2Fjquery.easing.1.3.js%3B%2FJS%2Fjquery.global.js%3B%2FJS%2Fshared%2Fjquery.acceptedTerms.js%3B%2FJS%2Fshared%2Fheader.js%3B%2FJS%2Fshared%2Ffooter.js%3B%2Fbootstrapmaster%2Fdist%2Fjs%2Fbootstrap.min.js&t=130349631604251456 -> 200 (153ms)
+2014-01-24 11:05:49,683 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js -> 200 (295ms)
+2014-01-24 11:05:49,687 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular-animate.js -> 200 (299ms)
+2014-01-24 11:05:49,717 - sauce_connect:0 - INFO - GET http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js -> 200 (328ms)
+2014-01-24 11:05:49,836 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/minsources?s=%2FJS%2Fhome%2Fhomepage.js%3B%2FJS%2Fhome%2Fangular.activityfeed.js&t=130349631155937084 -> 200 (186ms)
+2014-01-24 11:05:50,237 - sauce_connect:0 - INFO - GET http://fonts.googleapis.com/css?family=Lato:300 -> 200 (288ms)
+2014-01-24 11:05:51,335 - sauce_connect:0 - INFO - POST http://www.trustpilot.com/sessions/gettrackingdata -> 200 (72ms)
+2014-01-24 11:05:51,605 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/logo_retina.png -> 200 (457ms)
+2014-01-24 11:05:51,611 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (461ms)
+2014-01-24 11:05:51,618 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/icon_close.png -> 200 (469ms)
+2014-01-24 11:05:51,625 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/countries/com.png -> 200 (474ms)
+2014-01-24 11:05:51,641 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/TP-business-arrow.png -> 200 (460ms)
+2014-01-24 11:05:51,657 - sauce_connect:0 - INFO - GET http://www.trustpilot.com/ico/fonts/icomoon.woff -> 200 (100ms)
+2014-01-24 11:05:51,704 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/8tb69qtawc/analytics.min.js -> 200 (555ms)
+2014-01-24 11:05:51,704 - sauce_connect:0 - INFO - GET https://apis.google.com/js/plusone.js -> 200 (341ms)
+2014-01-24 11:05:51,743 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/ajax-loader.gif -> 200 (186ms)
+2014-01-24 11:05:51,959 - sauce_connect:0 - INFO - GET http://platform.twitter.com/widgets.js -> 200 (775ms)
+2014-01-24 11:05:52,092 - sauce_connect:0 - INFO - GET http://connect.facebook.net/en_US/all.js -> 200 (826ms)
+2014-01-24 11:05:52,338 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/frontpage/homepage_5_1440-900.jpg -> 200 (289ms)
+2014-01-24 11:05:52,694 - sauce_connect:0 - INFO - GET http://d2dq2ahtl5zl1z.cloudfront.net/segment.js/v1/segment.min.js -> 200 (120ms)
+2014-01-24 11:05:52,921 - sauce_connect:0 - INFO - GET https://api.trustpilot.com/v1/reviews/latest?apikey=4ywu2s2G6FXdghj7W0Y8tFC5dpXx05sk&callback=angular.callbacks._0&count=32&filterUsersWithoutImages=true&language=en&locale=en-US -> 200 (1176ms)
+2014-01-24 11:05:53,430 - sauce_connect:0 - INFO - GET https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.da.o7HI8vge6G8.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=IQ/rs=AItRSTNUWp6V89s4lGtys7i5tA8LRCqaug/cb=gapi.loaded_0 -> 200 (212ms)
+2014-01-24 11:05:53,716 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/ga.js -> 200 (496ms)
+2014-01-24 11:05:54,078 - sauce_connect:0 - INFO - GET http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js -> 200 (859ms)
+2014-01-24 11:05:54,088 - sauce_connect:0 - INFO - GET http://rum-static.pingdom.net/prum.min.js -> 200 (869ms)
+2014-01-24 11:05:54,134 - sauce_connect:0 - INFO - GET http://static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (534ms)
+2014-01-24 11:05:54,562 - sauce_connect:0 - INFO - GET https://s-static.ak.facebook.com/connect/xd_arbiter.php?version=28 -> 200 (962ms)
+2014-01-24 11:05:55,072 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e245d40000640001603641/73x73.png -> 200 (457ms)
+2014-01-24 11:05:55,085 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2455b0000640001603623/73x73.png -> 200 (472ms)
+2014-01-24 11:05:55,099 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2430600006400016035b8/73x73.png -> 200 (470ms)
+2014-01-24 11:05:55,111 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/50a787d10000640001273daa/73x73.png -> 200 (482ms)
+2014-01-24 11:05:55,441 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e24582000064000160362b/73x73.png -> 200 (560ms)
+2014-01-24 11:05:55,512 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/516e932500006400013840f9/73x73.png -> 200 (631ms)
+2014-01-24 11:05:55,690 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=1&utmn=1195824760&utmhn=www.trustpilot.com&utmcs=UTF-8&utmsr=1024x768&utmvp=980x671&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1530386310&utmr=-&utmp=%2F&utmht=1390557955479&utmac=UA-3710215-26&utmcc=__utma%3D1.1853781020.1390557955.1390557955.1390557955.1%3B%2B__utmz%3D1.1390557955.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=qhCAAAAAAAAAAAAAAAAAAAB~ -> 200 (240ms)
+2014-01-24 11:05:56,010 - sauce_connect:0 - INFO - GET http://csi.gstatic.com/csi?v=3&s=gapi_global&action=global&it=blt.1,psi.1&srt=742&tbsrt=6426&tran=15&e=abc_e102,abc_e98,abc_e99,abc_e79,abc_e109,abc_e45,abc_e17,abc_e117,abc_e115,abc_e81,abc_e126,abc_e95,abc_e124,abc_e122,abc_e61,abc_e30,abc_l0,abc_m0,abc_u0&rt= -> 204 (894ms)
+2014-01-24 11:05:56,016 - sauce_connect:0 - INFO - GET http://csi.gstatic.com/csi?v=3&s=gapi_module&action=plusone&it=mli.2346,mei.83&srt=742&tbsrt=6426&tran=15&e=abc_e102,abc_e98,abc_e99,abc_e79,abc_e109,abc_e45,abc_e17,abc_e117,abc_e115,abc_e81,abc_e126,abc_e95,abc_e124,abc_e122,abc_e61,abc_e30,abc_l0,abc_m0,abc_pplusone,abc_u0&rt= -> 204 (900ms)
+2014-01-24 11:05:56,023 - sauce_connect:0 - INFO - GET http://www.google-analytics.com/__utm.gif?utmwv=5.4.6&utms=2&utmn=258837681&utmhn=www.trustpilot.com&utmt=event&utme=5(All*HomepageView)(0)&utmcs=UTF-8&utmsr=1024x768&utmvp=980x671&utmsc=24-bit&utmul=en-us&utmje=1&utmfl=11.8%20r800&utmdt=Trustpilot&utmhid=1530386310&utmr=-&utmp=%2F&utmht=1390557955498&utmac=UA-3710215-26&utmcc=__utma%3D1.1853781020.1390557955.1390557955.1390557955.1%3B%2B__utmz%3D1.1390557955.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmu=6hCAAAAAAAAAAAAAAAAAAAB~ -> 200 (499ms)
+2014-01-24 11:05:56,237 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJIb21lcGFnZVZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNiNjg1ZWMyNDItMGJmOTk3YjI5LTZkMWIyZTdhLWMwMDAwLTE0M2MzYjY4NWVkMzNiIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsInRva2VuIjogIjJjMjJkMjQ4MmVmODA5NDUyYmM5NWFmNWMyYWQ4NTYwIn19&ip=1&_=1390557955579 -> 200 (689ms)
+2014-01-24 11:05:56,246 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/engage/?data=eyIkc2V0IjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCIkaW5pdGlhbF9yZWZlcnJlciI6ICIkZGlyZWN0IiwiJGluaXRpYWxfcmVmZXJyaW5nX2RvbWFpbiI6ICIkZGlyZWN0IiwiaWQiOiAiMzJhMTMxZjJmNWJmMDA5NjY0ZWM5NGUxMDVhZDlkNmExMzFjMTZmYyJ9LCIkdG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAiLCIkZGlzdGluY3RfaWQiOiAiMzJhMTMxZjJmNWJmMDA5NjY0ZWM5NGUxMDVhZDlkNmExMzFjMTZmYyJ9&ip=1&_=1390557955589 -> 200 (584ms)
+2014-01-24 11:05:56,256 - sauce_connect:0 - INFO - GET http://api.mixpanel.com/track/?data=eyJldmVudCI6ICJtcF9wYWdlX3ZpZXciLCJwcm9wZXJ0aWVzIjogeyIkb3MiOiAiTWFjIE9TIFgiLCIkYnJvd3NlciI6ICJDaHJvbWUiLCJtcF9saWIiOiAid2ViIiwiZGlzdGluY3RfaWQiOiAiMTQzYzNiNjg1ZWMyNDItMGJmOTk3YjI5LTZkMWIyZTdhLWMwMDAwLTE0M2MzYjY4NWVkMzNiIiwiJGluaXRpYWxfcmVmZXJyZXIiOiAiJGRpcmVjdCIsIiRpbml0aWFsX3JlZmVycmluZ19kb21haW4iOiAiJGRpcmVjdCIsIm1wX3BhZ2UiOiAiaHR0cDovL3d3dy50cnVzdHBpbG90LmNvbS8iLCJtcF9icm93c2VyIjogIkNocm9tZSIsIm1wX3BsYXRmb3JtIjogIk1hYyBPUyBYIiwidG9rZW4iOiAiMmMyMmQyNDgyZWY4MDk0NTJiYzk1YWY1YzJhZDg1NjAifX0%3D&ip=1&_=1390557955571 -> 200 (707ms)
+2014-01-24 11:05:56,684 - sauce_connect:0 - INFO - GET https://www.facebook.com/connect/ping?client_id=65206056824&domain=www.trustpilot.com&origin=1&redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D28%23cb%3Df27144c5e4%26domain%3Dwww.trustpilot.com%26origin%3Dhttp%253A%252F%252Fwww.trustpilot.com%252Ff375b4e7d4%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey -> 302 (258ms)
+2014-01-24 11:05:56,903 - sauce_connect:0 - INFO - GET http://rum-collector.pingdom.net/img/beacon.gif?path=http%3A%2F%2Fwww.trustpilot.com%2F&title=Trustpilot&id=5183c8f5abe53d9029000000&s=nt&rC=0&nS=0&uES=-1&uEE=-1&rS=-1&rE=-1&fS=0&dLS=0&dLE=0&cS=0&cE=0&hS=-1&reS=15&resS=742&resE=948&dL=750&dI=2814&dCLES=2814&dCLEE=2914&dC=7761&lES=7761&lEE=7780 -> 200 (536ms)
+2014-01-24 11:05:57,240 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/i -> 200 (756ms)
+2014-01-24 11:05:57,250 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (821ms)
+2014-01-24 11:05:57,256 - sauce_connect:0 - INFO - POST http://api2.segment.io/v1/t -> 200 (772ms)
+2014-01-24 11:05:57,348 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/favicon.ico -> 200 (53ms)
+2014-01-24 11:06:01,739 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (48ms)
+2014-01-24 11:06:02,012 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e240410000640001603533/73x73.png -> 200 (137ms)
+2014-01-24 11:06:11,509 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (86ms)
+2014-01-24 11:06:11,736 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2408a0000640001603543/73x73.png -> 200 (132ms)
+2014-01-24 11:06:21,631 - sauce_connect:0 - INFO - GET http://s3-eu-west-1.amazonaws.com/tpd/users/52e2403a0000640001603532/73x73.png -> 200 (182ms)
+2014-01-24 11:06:21,759 - sauce_connect:0 - INFO - GET http://images-static.trustpilot.com/community/shared/sprite_star.png -> 200 (125ms)
+2014-01-24 11:06:24,105 - sauce_connect:0 - INFO - received SIGINT
+2014-01-24 11:21:43,410 - sauce_connect:554 - INFO - / Starting \
+2014-01-24 11:21:43,414 - sauce_connect:555 - INFO - Please wait for "You may start your tests" to start your tests.
+2014-01-24 11:21:43,418 - sauce_connect:567 - DEBUG - System is 2.0 hours off UTC
+2014-01-24 11:21:43,420 - sauce_connect:569 - DEBUG - options: {'user': 'evgenysemiletov', 'ports': ['52361'], 'domains': ['sauce-connect.proxy'], 'debug_ssh': False, 'tunnel_ports': ['80'], 'allow_unclean_exit': False, 'rest_url': 'https://saucelabs.com/rest/v1', 'logfile': 'sauce_connect.log', 'squid_opts': '', 'ssh': False, 'se_port': '4445', 'readyfile': 'sauce_connect.ready', 'shared_tunnel': False, 'boost_mode': True, 'tunnel_identifier': '', 'ssh_port': 443, 'fast_fail_regexps': '', 'direct_domains': '', 'host': '127.0.0.1', 'quiet': False, 'latency_log': 150, 'use_ssh_config': False}
+2014-01-24 11:21:43,421 - sauce_connect:570 - DEBUG - metadata: {'PythonVersion': '2.5.1', 'OwnerHost': '127.0.0.1', 'Release': '3.0-r25', 'OwnerPorts': ['52361'], 'Ports': ['80'], 'Platform': 'Java-1.6.0_65-Java_HotSpot-TM-_64-Bit_Server_VM,_20.65-b04-462,_Apple_Inc.-on-Mac_OS_X-10.8.5-x86_64', 'Build': '38', 'ScriptRelease': 38, 'ScriptName': 'sauce_connect'}
+2014-01-24 11:21:43,423 - sauce_connect:572 - INFO - Forwarding: ['sauce-connect.proxy']:['80'] -> 127.0.0.1:['52361']
+2014-01-24 11:21:43,434 - sauce_connect:371 - INFO - Succesfully connected to local server 127.0.0.1:52361 in 4ms
+2014-01-24 11:21:44,040 - sauce_connect:0 - INFO - received SIGINT
