@@ -22,7 +22,7 @@ When(/^I click Facebook button$/) do
 end
 Then(/^I can see Facebook login dialog$/) do
 	@popup = FaceBookLoginPopUp.new
-	@popup.log_in('testtonik@gmail.com', '')
+	@popup.log_in_first_time('testtonik@gmail.com', '_g0r0d0k_')
 end
 
 Then(/^I redirected to Home Page$/) do
@@ -59,4 +59,12 @@ end
 
 Then(/^I redirected to Home Page again$/) do
 	page.should have_content('Review and discover great companies!')
+end
+
+When(/^I click on 'Log in' link$/) do
+	@tp_home_page.log_in_links[0].click
+end
+
+Given(/^I redirected to 'Log in' page and I see 'Login to Trustpilot with' header$/) do
+	page.should have_content('Login to Trustpilot with')
 end

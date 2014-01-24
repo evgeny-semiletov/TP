@@ -14,4 +14,8 @@ class TrustpilotHomePage < SitePrism::Page
 		find_link('Go to my profile').click if find_link('Go to my profile').visible?
 	end
 
+	def log_off
+		find_link('Log off').trigger('click')
+	end
+
 end
