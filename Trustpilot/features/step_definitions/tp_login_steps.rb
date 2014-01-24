@@ -7,5 +7,5 @@ end
 
 Then(/^I login with existing user account$/) do
 	@popup = FaceBookLoginPopUp.new
-	@popup.log_in('evgeny.semiletov@gmail.com', 'Azov34674022!')
+	@popup.log_in('evgeny.semiletov@gmail.com', '!')
 end
